@@ -6,7 +6,6 @@
 local Event = require('__stdlib__/stdlib/event/event')
 
 local refresh_data = function()
-    print('RUn 22222')
     remote.call('enemy_race_manager', 'force_data_reindex')
     remote.call('enemy_race_manager', 'army_reindex')
 end
