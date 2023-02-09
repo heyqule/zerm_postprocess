@@ -6,8 +6,8 @@
 local Event = require('__stdlib__/stdlib/event/event')
 
 local refresh_data = function()
-    remote.call('enemy_race_manager', 'force_data_reindex')
-    remote.call('enemy_race_manager', 'army_reindex')
+    remote.call('enemyracemanager', 'force_data_reindex')
+    remote.call('enemyracemanager', 'army_reindex')
 end
 
 Event.on_init(function(event)
