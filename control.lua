@@ -8,6 +8,7 @@ local Event = require('__stdlib__/stdlib/event/event')
 local refresh_data = function()
     remote.call('enemyracemanager', 'force_data_reindex')
     remote.call('enemyracemanager', 'army_reindex')
+    remote.call('enemyracemanager','init_beacon_control_globals')
 end
 
 Event.on_init(function(event)
