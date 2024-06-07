@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.0
-Date: 2024-??-??
+Date: 2024-06-07
 
   Features:
     - Added indexer for attack group beacons. (ERM 1.21 requirement)
